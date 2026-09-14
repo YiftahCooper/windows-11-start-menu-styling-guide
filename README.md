@@ -471,7 +471,7 @@ Stretch can be set to the following values:
 
 > [!NOTE]
 > Reveal is a deprecated XAML feature. It may have issues
-or stop working at any time.
+> or stop working at any time.
 
 Reveal is the cursor-based illumination effect from Windows 10.
 
