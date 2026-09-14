@@ -101,6 +101,7 @@ Start Menu Styler mod. The following themes are available:
 | [Down Aero](Themes/Down%20Aero/README.md) | [![Down Aero](Themes/Down%20Aero/screenshot-small.png)](Themes/Down%20Aero/screenshot.png)
 | [Windows10](Themes/Windows10/README.md) | [![Windows10](Themes/Windows10/screenshot-small.png)](Themes/Windows10/screenshot.png)
 | [Windows11_Metro10](Themes/Windows11_Metro10/README.md) | [![Windows11_Metro10](Themes/Windows11_Metro10/screenshot-small.png)](Themes/Windows11_Metro10/screenshot.png)
+| [Windows11_Metro10Expanded](Themes/Windows11_Metro10Expanded/README.md) | [![Windows11_Metro10Expanded](Themes/Windows11_Metro10Expanded/screenshot-small.png)](Themes/Windows11_Metro10Expanded/screenshot.png)
 | [Fluent2Inspired](Themes/Fluent2Inspired/README.md) | [![Fluent2Inspired](Themes/Fluent2Inspired/screenshot-small.png)](Themes/Fluent2Inspired/screenshot.png)
 | [RosePine](Themes/RosePine/README.md) | [![RosePine](Themes/RosePine/screenshot-small.png)](Themes/RosePine/screenshot.png)
 | [Windows11_Metro10Minimal](Themes/Windows11_Metro10Minimal/README.md) | [![Windows11_Metro10Minimal](Themes/Windows11_Metro10Minimal/screenshot-small.png)](Themes/Windows11_Metro10Minimal/screenshot.png)
@@ -470,7 +471,7 @@ Stretch can be set to the following values:
 
 > [!NOTE]
 > Reveal is a deprecated XAML feature. It may have issues
-> or stop working at any time.
+or stop working at any time.
 
 Reveal is the cursor-based illumination effect from Windows 10.
 
