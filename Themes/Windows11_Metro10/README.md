@@ -436,3 +436,29 @@ controlStyles:
       - Margin=-20,0,20,0
 ```
 </details>
+
+## Expanded Variant — redesigned Start menu on newer Windows 11 versions
+
+**Variant author**: [YiftahCooper](https://github.com/YiftahCooper)
+
+![Expanded variant screenshot](screenshot-expanded.png)
+
+This variant is specifically for newer Windows 11 versions that use Microsoft's redesigned Start menu (introduced with the 25H2-era rollout). That Windows redesign changed the Start-menu layout and broke the previous Metro10 layout's use of the right-hand pane: only a few pinned/category rows were visible while a large area underneath remained empty.
+
+The Expanded Variant keeps the standard Metro10 appearance and the original `132 × 132` category tile size, but restores use of that otherwise wasted vertical space so substantially more pinned/category items are visible before scrolling is required.
+
+To use the Expanded Variant, start with the redesigned Start menu configuration above and make these two changes:
+
+1. For `Grid#SideBySidePinnedWrapper > Windows.UI.Xaml.Controls.ScrollViewer#SideBySidePinnedScrollViewer`, change the transform to:
+
+```yaml
+- RenderTransform:=<TranslateTransform X="172" Y="38" />
+```
+
+2. For `GridView#PinnedList > Border > Windows.UI.Xaml.Controls.ScrollViewer`, change the height to:
+
+```yaml
+- Height=610
+```
+
+These are the only intentional layout differences from the standard redesigned Metro10 configuration. Overflow continues to scroll normally. The classic Start menu is unchanged; use the standard classic configuration above.
