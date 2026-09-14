@@ -443,9 +443,9 @@ controlStyles:
 
 ![Expanded variant screenshot](screenshot-expanded.png)
 
-This variant is specifically for newer Windows 11 versions that use Microsoft's redesigned Start menu (introduced with the 25H2-era rollout). That Windows redesign changed the Start-menu layout and broke the previous Metro10 layout's use of the right-hand pane: only a few pinned/category rows were visible while a large area underneath remained empty.
+This variant is specifically for newer Windows 11 versions that use Microsoft's redesigned Start menu (introduced with the 25H2-era rollout). The newer Windows Start-menu redesign changed the layout in a way that broke the previous Metro10 right-hand pane behavior: only a few pinned/category rows were visible, users had to scroll much sooner than before, and a large area underneath was left unused.
 
-The Expanded Variant keeps the standard Metro10 appearance and the original `132 × 132` category tile size, but restores use of that otherwise wasted vertical space so substantially more pinned/category items are visible before scrolling is required.
+The Expanded Variant is intended as the Metro10 layout for those newer Windows versions. It keeps the standard Metro10 appearance and the original `132 × 132` category tile size, but restores use of that otherwise wasted vertical space so substantially more pinned/category items are visible before scrolling is required.
 
 To use the Expanded Variant, start with the redesigned Start menu configuration above and make these two changes:
 
