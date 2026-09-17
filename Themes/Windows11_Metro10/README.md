@@ -452,7 +452,7 @@ To use the Expanded Variant, start with the redesigned Start menu configuration 
 1. For `Grid#SideBySidePinnedWrapper > Windows.UI.Xaml.Controls.ScrollViewer#SideBySidePinnedScrollViewer`, change the transform to:
 
 ```yaml
-- RenderTransform:=<TranslateTransform X="172" Y="38" />
+- RenderTransform:=<TranslateTransform X="172" Y="55" />
 ```
 
 2. For `GridView#PinnedList > Border > Windows.UI.Xaml.Controls.ScrollViewer`, change the height to:
